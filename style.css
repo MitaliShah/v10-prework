@@ -204,14 +204,21 @@ form a{
 }
 footer a{
     text-decoration: none;
-    color: white;
+    color: white;    
 }
-
+.footer-wrapper li{
+    /* border-right: 1px solid white; */
+    padding-right: 10px;
+}
+.footer-wrapper a{
+    border-right: 1px solid white;
+    padding-right: 7px;
+}
 footer li{
     list-style-type: none;
     padding-right: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
 }
 footer ul{
     display: flex;
@@ -222,6 +229,12 @@ footer li:first-child{
 footer{
     background: black;
     height: auto;
+    font-size: 14px;
+}
+.copyright p{
+    
+    color: white;
+    padding: 4px 0 4px 6px;
 }
 
 
