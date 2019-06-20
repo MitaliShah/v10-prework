@@ -151,7 +151,81 @@ form a{
 }
 .section-2 p{
     padding: 10px 0 10px 0;
+    font-size: 13.5px;
 }
+.section-3-content{
+    width: 70%;
+    margin: auto;
+    padding: 10px;    
+}
+.section-3{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+.section-3 img{
+    width: 100%;
+    height: 100%;    
+}
+.section-3-text-wrapper{
+    width: 65%;
+    margin-left: 0;
+}
+.img-wrapper-3{
+    width: 20%;
+    height: auto;
+    margin-right: 25px;
+}
+.section-4-content{
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+.section-4 img{
+    width: 100%;
+    height: 100%;
+}
+.section-4-text-wrapper{
+    width: 60%;
+}
+.img-wrapper-4{
+    width: 20%;
+    height: auto;
+    margin-right: 25px;
+}
+.section-4{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-wrapper, .social-icons, .footer-notes{
+    width: 70%;
+    margin: auto;   
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+    list-style-type: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer ul{
+    display: flex;
+}
+footer li:first-child{
+    padding-left: 10px;
+}
+footer{
+    background: black;
+    height: auto;
+}
+
+
+
 
 
 
